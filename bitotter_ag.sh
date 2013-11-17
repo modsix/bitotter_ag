@@ -77,7 +77,7 @@ done
 
 if [ ! -z "$EFLAG" ] && [ ! -z "$EARG" ]; then
 		MPEx_ORDER='mpex_order_'$DATE'.asc'
-		`echo $earg | gpg --clearsign | gpg --armor --encrypt -r $MPEx_KEYID > $MPEx_ORDER`
+		`echo $EARG | gpg --clearsign | gpg --armor --encrypt -r $MPEx_KEYID > $MPEx_ORDER`
 		if [ ! -z "$VFLAG" ]; then
 			ENC=`cat $MPEx_ORDER`	
 			echo "$ENC"	
