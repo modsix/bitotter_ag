@@ -102,7 +102,7 @@ fi
 
 if [ ! -z "$USAGE" ]; then
 		echo ""
-		echo "Usage: bitotter.sh [OPTION] [COMMAND | RECEIPT_TO_DECRYPT]"
+		echo "Usage: bitotter_ag.sh [OPTION] [COMMAND | RECEIPT_TO_DECRYPT]"
 		echo ""
 	        echo "OPTIONS:"
 		echo "         -e    Encrypt the input command from command prompt."
@@ -112,10 +112,10 @@ if [ ! -z "$USAGE" ]; then
 		echo "         -h    Print this help message."
 		echo ""
 		echo "Examples:"
-		echo "  : ./bitotter.sh -e \"CMD|{MPSIC}|{qty}|{price}|{expiry}\""
-		echo "or: ./bitotter.sh -e \"MPEx COMMAND\""
-		echo "or: ./bitotter.sh -d mpex_receipt.asc"
-		echo "or: ./bitotter.sh -v -d mpex_receipt.asc"
+		echo "  : ./bitotter_ag.sh -e \"CMD|{MPSIC}|{qty}|{price}|{expiry}\""
+		echo "or: ./bitotter_ag.sh -e \"MPEx COMMAND\""
+		echo "or: ./bitotter_ag.sh -d mpex_receipt.asc"
+		echo "or: ./bitotter_ag.sh -v -d mpex_receipt.asc"
 		echo ""
 		echo "Please review the MPEx FAQ: http://mpex.co/faq.html"
 		echo ""
