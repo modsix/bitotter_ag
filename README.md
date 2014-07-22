@@ -1,8 +1,8 @@
-Copyright (c) 2013
+Copyright (c) 2013, 2014
 BITOTTER (http://www.bitotter.com) All rights reserved.
 
-BitOTTer Air-Gap / Stand-Alone Tool for MPEx (bitotter_ag.sh) v0.0.1 alpha 
-Copyright (c) 2013 bitotter.com <modsix@gmail.com> 0xD655A630A13E8C69 
+BitOTTer Air-Gap / Stand-Alone Tool for MPEx (bitotter_ag.sh) v0.0.2 alpha 
+Copyright (c) 2013, 2014 bitotter.com <modsix@gmail.com> 0xD655A630A13E8C69 
 
 bitotter_ag.sh is simply creates an encrypted MPEx command file and write it 
 to the local directory where this script resides. The relaying of the encrypted
