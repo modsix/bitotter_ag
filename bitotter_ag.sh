@@ -34,7 +34,7 @@
 #
 
 # BitOTTer Air-Gap / Stand-Alone Tool for MPEx (bitotter_ag.sh) v0.0.2 alpha 
-# Copyright (c) 2013, 2014 bitotter.com <modsix@gmail.com> 0xD655A630A13E8C69 
+# Copyright (c) 2013, 2014 bitotter.com <modsix@gmail.com> 0x721705A8B71EADAF
 
 # bitotter_ag.sh is simply creates an encrypted MPEx command file and write it 
 # to the local directory where this script resides. The relaying of the encrypted
@@ -114,10 +114,11 @@ if [ ! -z "$USAGE" ]; then
 		echo "Examples:"
 		echo "  : ./bitotter_ag.sh -e \"CMD|{MPSIC}|{qty}|{price}|{expiry}\""
 		echo "or: ./bitotter_ag.sh -e \"MPEx COMMAND\""
+		echo "or: ./bitotter_ag.sh -e \"STAT\""
 		echo "or: ./bitotter_ag.sh -d mpex_receipt.asc"
 		echo "or: ./bitotter_ag.sh -v -d mpex_receipt.asc"
 		echo ""
-		echo "Please review the MPEx FAQ: http://mpex.co/faq.html"
+		echo "Please review the MPEx FAQ: http://mpex.bz/faq.html"
 		echo ""
 		echo "For further help, find mod6 at irc.freenode.net" 
 		echo "in channels: #bitcoin-assets or #BitOTTer"
